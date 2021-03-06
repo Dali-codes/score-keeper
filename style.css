@@ -1,0 +1,105 @@
+body {
+    background-color: #000;
+}
+
+#score-keeper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-wrapper {
+    width: 60%;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.scores {
+    font-size: 8rem;
+    font-weight: 700;
+    margin: 30px 0;
+    text-align: center;
+}
+
+#p1scoreDisplay, 
+#p2scoreDisplay {
+    font-size: 10rem;
+    padding: 0 20px;
+}
+
+.games-label {
+    font-weight: 500;
+}
+
+#games {
+    width: 70px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 2px 15px 2px 15px;
+    font-size: 1.3rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    width: 180px;
+    outline: none;
+    color: #000;
+}
+
+#addPlayer1 {
+    border-color: #3498db;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    transition: all 150ms ease-in-out;
+}
+      
+#addPlayer1:hover {       
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}     
+
+#addPlayer2 {
+    border-color: #ed8713;
+    box-shadow: 0 0 40px 40px #ed8713 inset, 0 0 0 0 #ed8713;
+    transition: all 150ms ease-in-out;
+}
+
+#addPlayer2:hover {  
+    box-shadow: 0 0 10px 0 #ed8713 inset, 0 0 10px 4px #ed8713;
+} 
+
+#resetBtn {
+    border-color: #d4d4d4;
+    box-shadow: 0 0 40px 40px #d4d4d4 inset, 0 0 0 0 #d4d4d4;        
+    transition: all 150ms ease-in-out;
+}
+
+#resetBtn:hover {
+    box-shadow: 0 0 10px 0 #d4d4d4 inset, 0 0 10px 4px #d4d4d4;
+}
+
+.winner {
+    color: rgb(71, 206, 71);
+}
+ 
+.loser {
+    color: rgb(236, 27, 27);
+}
