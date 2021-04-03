@@ -103,3 +103,73 @@ h1 {
 .loser {
     color: rgb(236, 27, 27);
 }
+
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 360px) {
+    .scores {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #p1scoreDisplay, 
+    #p2scoreDisplay {
+        font-size: .9em;
+        padding: 0 10px;
+    }
+
+    #games {
+        font-size: .9em;
+    }
+
+    .buttons button {
+        font-size: .9rem;
+        padding: 5px 20px;
+    }
+}
+
+@media (min-width: 576px) {
+    body {
+        font-size: 1.5em;
+    }
+
+    #p1scoreDisplay, 
+    #p2scoreDisplay {
+        font-size: 1.3em;
+        padding: 0 10px;
+    }
+
+   #games {
+       font-size: 1.2rem;
+       padding: 10px;
+   }
+
+   .buttons button {
+        font-size: 1.2rem;
+        padding: 5px 7px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 2.2em;
+    }
+
+    #p1scoreDisplay, 
+    #p2scoreDisplay {
+        font-size: 2em;
+        padding: 0 10px;
+    }
+
+   #games {
+       font-size: 1em;
+       padding: 0 5px;
+    }
+
+   .buttons button {
+        font-size: 1.6rem;
+        padding: 5px 7px;
+    }
+}
